@@ -1,0 +1,91 @@
+@media (max-width: 576px) {
+  header .text h1 {
+    font-size: 50px;
+  }
+  header .text p {
+    max-width: 500px !important;
+    font-size: 30px;
+  }
+  header .text span {
+    font-size: 30px;
+  }
+  header .menu {
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 22;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  header .menu li a {
+    color: black !important;
+    font-weight: normal;
+    margin-bottom: 2px;
+  }
+  header .container{width: 100% !important;}
+
+  #Testimonials .container{width: 90% !important;
+padding: 0 !important;}
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+   header{margin: 0;}
+    header .text h1 {
+      font-size: 50px;
+    }
+    header .text p {
+      max-width: 700px !important;
+      font-size: 32px;
+    }
+    header .text span {
+      font-size: 34px;
+    }
+    header .menu {
+      text-align: center;
+      background-color: #fff;
+      position: relative;
+      z-index: 22;
+      top: 0;
+      left: 0;
+      padding: 20px;
+      border-radius: 10px;
+      width: 100%;
+    }
+    header .menu li a {
+      color: black !important;
+      font-weight: normal;
+      margin-bottom: 2px;
+    }
+    header .container{width: 100% !important;}
+  }
+  #Testimonials .container{width: 90% !important;
+    padding: 0 !important;}
+
+  @media (min-width: 768px) and (max-width:992px) {
+    header .text p {
+        max-width: 500px !important;
+        font-size: 40px;
+      }
+      header .text span {
+        font-size: 40px;
+      }
+    header .menu {
+        text-align: center;
+        background-color: #fff;
+        position: relative;
+        z-index: 22;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        border-radius: 10px;
+        width: 100%;
+      }
+      header .menu li a {
+        color: black !important;
+        font-weight: normal;
+        margin-bottom: 2px;
+      }
+      header .container{width: 100% !important;}
+  }

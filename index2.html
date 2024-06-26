@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption&family=Pacifico&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="home" class="pt-5 position-relative">
+      <h1 class="text-center">bookmaker</h1>
+    </div>
+
+    <div id="body">
+      <p class="text-center fs-3 p-3">
+        <i class="fa-solid fa-bookmark"></i>
+        <span> Bookmark your favorite sites</span>
+        <i class="fa-solid fa-bookmark"></i>
+      </p>
+    </div>
+    <div class="brdr"></div>
+    <div class="form w-75 mx-auto">
+      <label id="SiteNamelab" for="SiteName"
+        ><i class="fa-solid fa-book-bookmark"></i>Site Name</label
+      >
+      <input
+        type="text"
+        id="SiteName"
+        class="form-control my-2"
+        placeholder="book marker"
+      />
+      <label id="SiteURLlab" for="SiteURL"
+        ><i class="fa-solid fa-book-bookmark"></i>Site Url</label
+      >
+      <input
+        type="text"
+        id="SiteURL"
+        class="form-control my-2"
+        placeholder="Website URL"
+      />
+      <button onclick="Main()" class="btn btn-danger">Submit</button>
+    </div>
+    <div class="brdr"></div>
+    <table class="table table-striped w-75 text-center mx-auto mt-5">
+      <thead>
+        <th>Index</th>
+        <th>Website name</th>
+        <th>Visit</th>
+        <th>Delete</th>
+      </thead>
+      <tbody id="demo"></tbody>
+    </table>
+
+    <div class="demo1"></div>
+
+    <script src="js/main2.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
